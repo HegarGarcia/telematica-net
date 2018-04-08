@@ -3,6 +3,8 @@ const morgan = require('morgan');
 const helmet = require('helmet');
 const nunjucks = require('nunjucks');
 
+const routes = require('./routes/');
+
 const app = express();
 
 app.use(morgan('dev'));
@@ -19,7 +21,8 @@ const nunjucksEnv = nunjucks.configure(`${__dirname}/../templates`, {
     express: app
 });
 
-app.use(require('./routes'));
+//app.use(require('./routes'));
+app.use(routes);
 
 (async function() {
     app.listen('3000', () => {
