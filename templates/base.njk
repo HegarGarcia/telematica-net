@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Hegar" />
-    <meta name="robots" content="index"/>
-    <meta name="robots" content="follow"/>
-
     <title>{{meta.title}}</title>
     <link rel="stylesheet" href="/material.css">
 </head>
 <body>
     <header>
-        <h1>Header</h1>
+        <nav>
+            <div class="navbar-fixed">
+            <a href="#" class="brand-logo">Hola</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+            </div>
+        </nav>
     </header>
     <main>
         {% block main %}
