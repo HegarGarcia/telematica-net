@@ -4,12 +4,16 @@ import * as fs from 'fs';
 const readFile = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
 
-const readFileOr404 = (path:string) => readFile(path).catch(err => console.error(err));
+const readFileOr404: any = (path:string) => readFile(path, {encoding: 'utf8'}).catch(err => {
+    console.error(err)
+    return JSON.stringify({title: "Error"});
+});
 
 export const getPageInfo:any = async (slug:string) => {
     slug = slug.toLowerCase();
     let template;
-    let meta:any = await readFileOr404(`${__dirname}/../../pages/${slug}.json`);
+    let meta:JSON = JSON.parse(await readFileOr404(`${__dirname}/../../pages/${slug}.json`));
+
     switch (slug) {
         case 'historia':
             template = 'historia';
@@ -21,8 +25,6 @@ export const getPageInfo:any = async (slug:string) => {
             template = '404';
             break;
     }
-    
-    meta = meta !== undefined ? JSON.parse(meta.toString()) : {title: "Error"};
 
     return new Promise(resolve => resolve([template, meta]));
 };

@@ -7,10 +7,10 @@ const router = express.Router();
 
 router.use('/material.css', express.static(`${__dirname}/../../node_modules/materialize-css/dist/css/materialize.min.css`));
 router.use('/material.js', express.static(`${__dirname}/../../node_modules/materialize-css/dist/js/materialize.min.js`));
+router.use('/css', express.static(`${__dirname}/../../css`));
 
 router.get('/', async (req:express.Request, res:express.Response) => {
     const [ template, meta ]:Array<any> = await getPageInfo('home');
-    console.log(meta)
     res.render('home', {meta});
 });
 
