@@ -18,7 +18,7 @@ export const getPageInfo:any = async (slug:string) => {
         case 'historia':
             template = 'historia';
             break;
-        case 'contacto':
+        case 'Contacto':
             template = 'contacto';
             break;
         default:
