@@ -5,14 +5,13 @@ import { getPageInfo } from './lib';
 
 const router = express.Router();
 
-router.use('/material.css', express.static(`${__dirname}/../../node_modules/material-components-web/dist/material-components-web.min.css`));
-router.use('/material.js', express.static(`${__dirname}/../../node_modules/material-components-web/dist/material-components-web.min.js`));
+router.use('/material.css', express.static(`${__dirname}/../../node_modules/materialize-css/dist/css/materialize.min.css`));
+router.use('/material.js', express.static(`${__dirname}/../../node_modules/materialize-css/dist/js/materialize.min.js`));
 
 router.get('/', async (req:express.Request, res:express.Response) => {
-    const [ template, meta ]:Array<any> = await getPageInfo(`${__dirname}/../pages/home/meta.json`);
-    res.render('home', {
-        meta
-    });
+    const [ template, meta ]:Array<any> = await getPageInfo('home');
+    console.log(meta)
+    res.render('home', {meta});
 });
 
 router.get('/:slug', async (req:express.Request, res:express.Response) => {
