@@ -5,30 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{meta.title}}</title>
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/material.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/{{meta.css}}.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="navbar-fixed">
-            <a href="#" class="brand-logo">Hola</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
-            </ul>
+            <div class="nav-wrapper blue-grey">
+                <a href="#!" class="brand-logo">Facultad de Telemática</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
             </div>
         </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <div class="user-view" style="padding: 16px;">
+                    <div class="background" style="position: initial;">
+                        <img src="img/ucol.png" style="max-width: 100%; vertical-align: middle;">
+                    </div>
+                </div>
+            </li>            
+            <ul class="collapsible">
+                <li>
+                    <div class="collapsible-header" id="inicio"><a href="/">Inicio</a></div>
+                    <div class="collapsible-body"></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Facultad</div>
+                    <div class="collapsible-body">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header" id="inicio"><a href="/Historia">Historia</a></div>
+                            <div class="collapsible-body"></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header" id="inicio"><a href="/Contacto">Contacto</a></div>
+                            <div class="collapsible-body"></div>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Oferta Educativa</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Académico</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Estudiantes</div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+            </ul>
+        </ul>
     </header>
     <main>
         {% block main %}
             
         {% endblock %}
     </main>
-    <footer>
-        <h1>Footer</h1>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+        <div class="container center">
+            © 2017 Facultad de Telemática. All Rights Reserved.
+        </div>
+        </div>
     </footer>
 
     <script src="/material.js" type="application/javascript"></script>
+    <script type="application/javascript">
+        let sidenavElem = document.querySelector('.sidenav');
+        let sidenav = M.Sidenav.init(sidenavElem);
+
+        let sidenavMenuElem = document.querySelector('.collapsible');
+        let sidenavMenu = M.Collapsible.init(sidenavMenuElem);
+    </script>
 </body>
 </html>
