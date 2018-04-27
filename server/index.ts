@@ -17,7 +17,7 @@ app.use((err:express.Errback, req:express.Request, res:express.Response, next:ex
 app.set('view engine', 'njk');
 app.disable('etag');
 
-const nunjucksEnv = nunjucks.configure(`${__dirname}/../templates`, {
+const nunjucksEnv = nunjucks.configure(`${__dirname}/../pages`, {
     watch: true,
     express: app
 });

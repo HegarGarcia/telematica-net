@@ -12,7 +12,7 @@ const readFileOr404: any = (path:string) => readFile(path, {encoding: 'utf8'}).c
 export const getPageInfo:any = async (slug:string) => {
     slug = slug.toLowerCase();
     let template;
-    let meta:JSON = JSON.parse(await readFileOr404(`${__dirname}/../../pages/${slug}.json`));
+    let meta:JSON = JSON.parse(await readFileOr404(`${__dirname}/../../meta/${slug}.json`));
 
     switch (slug) {
         case 'historia':
