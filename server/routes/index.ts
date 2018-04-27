@@ -21,7 +21,7 @@ router.get('/:slug', async (req:express.Request, res:express.Response) => {
     if (template === '404')
         status = 404;
 
-    res.status(status).render(template, meta);
+    res.status(status).render(template, {meta});
 });
 
 export default router;
