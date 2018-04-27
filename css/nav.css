@@ -1,3 +1,27 @@
-html {
-    color: red;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    height: 50%;
+}
+.brand-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.collapsible-header{
+    display: block;
+    font-weight: 500;
+}
+
+.collapsible-header a {
+    display: block;
+}
+
+@media only screen and (max-width: 360px) {
+
 }
