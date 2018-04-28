@@ -8,23 +8,34 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/material.css">
     <link rel="stylesheet" href="/css/nav.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/css/{{meta.css}}.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    {% if meta.css %}
+        <link rel="stylesheet" href="/css/{{meta.css}}.css">
+    {% endif %}
 </head>
 <body>
     <header>
+        {# Dropdown Facultad #}
+        <ul id='ddFac' class='dropdown-content'>
+            <li><a class="black-text" href="/Historia">Historia</a></li>
+            <li><a class="black-text" href="/Contacto">Contacto</a></li>
+        </ul>
+
+        {# Navbar #}
         <nav>
             <div class="nav-wrapper blue-grey">
                 <a href="/" class="brand-logo">Facultad de Telemática</a>
                 <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a href="mobile.html">Mobile</a></li>
+                    <li><a id="ddTFac" class='dropdown-trigger' href='#' data-target='ddFac'>Facultad</a></li>
+                    <li><a id="ddTOF" class='dropdown-trigger' href='#' data-target='dropdown1'>Oferta Educativa</a></li>
+                    <li><a id="ddTA" class='dropdown-trigger' href='#' data-target='dropdown1'>Académico</a></li>
+                    <li><a id="ddTE" class='dropdown-trigger' href='#' data-target='dropdown1'>Estudiantes</a></li>
                 </ul>
             </div>
         </nav>
+
+        {# Sidenav #}
         <ul class="sidenav" id="mobile-demo">
             <li>
                 <div class="user-view" style="padding: 16px;">
@@ -101,10 +112,13 @@
     <script src="/material.js" type="application/javascript"></script>
     <script type="application/javascript">
         let sidenavElem = document.querySelector('.sidenav');
-        let sidenav = M.Sidenav.init(sidenavElem);
+        M.Sidenav.init(sidenavElem);
 
         let sidenavMenuElem = document.querySelector('.collapsible');
-        let sidenavMenu = M.Collapsible.init(sidenavMenuElem);
+        M.Collapsible.init(sidenavMenuElem);
+
+        let ddFac = document.querySelector('#ddTFac');
+        M.Dropdown.init(ddFac);
     </script>
 </body>
 </html>
