@@ -2,16 +2,6 @@
 
 {% block main %}
     <h1 class="center-align">Historia</h1>
-    <!--
-    <div class="w3-content w3-display-container">
-      <img class="mySlides" src="/img/historia/fac0.jpg" style="width:100%">
-      <img class="mySlides" src="/img/historia/fac1.jpg" style="width:100%">
-      <img class="mySlides" src="/img/historia/fac2.jpg" style="width:100%">
-      <img class="mySlides" src="/img/historia/fac3.jpg" style="width:100%">
-    
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-    </div>-->
     <div>
     <div class="carousel carousel-slider">
       <a class="carousel-item" href="#one!"><img src="/img/historia/fac0.jpg"></a>
@@ -32,23 +22,22 @@
         El hecho de contar con un sistema moderno de comunicaciones e infraestructura en informática, telemática e inglés, es una base y un aliciente para mejorar los planes de estudios de la Facultad y así fomentar la investigación y la docencia en esta disciplina, que está teniendo un gran desarrollo por la extensiva utilización de Internet y por las necesidades de modernización que enfrentan las empresas e instituciones de la región.<br><br>
         </p>
     </div>
-    <!--JavaScript at end of body for optimized loading-->
+
     <script type="application/javaScript">
-    let instances;
       document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.carousel');
-        instances = M.Carousel.init(elems, {
+        let elems = document.querySelectorAll('.carousel');
+        let instances = M.Carousel.init(elems, {
           indicators: true,
           fullWidth: true,
           duration: 500
         });
 
-        instance = M.Carousel.getInstance(document.querySelector('.carousel'));
+        let instance = M.Carousel.getInstance(document.querySelector('.carousel'));
 
         function autoplay(){
-          instance.next()
+          instance.next();
         }
-        setInterval(autoplay,4000)
+        setInterval(autoplay, 4000);
       });
     </script>
 {% endblock %}
