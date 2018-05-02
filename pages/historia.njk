@@ -12,11 +12,13 @@
       <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
       <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
     </div>-->
+    <div>
     <div class="carousel carousel-slider">
       <a class="carousel-item" href="#one!"><img src="/img/historia/fac0.jpg"></a>
       <a class="carousel-item" href="#two!"><img src="/img/historia/fac1.jpg"></a>
       <a class="carousel-item" href="#three!"><img src="/img/historia/fac2.jpg"></a>
       <a class="carousel-item" href="#four!"><img src="/img/historia/fac3.jpg"></a>
+    </div>
     </div>
     <div style="text-align:justify; padding-top: 1em">
         <p>
@@ -32,9 +34,21 @@
     </div>
     <!--JavaScript at end of body for optimized loading-->
     <script type="application/javaScript">
+    let instances;
       document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.carousel');
-        var instances = M.Carousel.init(elems, {fullWidth: true});
+        instances = M.Carousel.init(elems, {
+          indicators: true,
+          fullWidth: true,
+          duration: 500
+        });
+
+        instance = M.Carousel.getInstance(document.querySelector('.carousel'));
+
+        function autoplay(){
+          instance.next()
+        }
+        setInterval(autoplay,4000)
       });
     </script>
 {% endblock %}
