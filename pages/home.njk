@@ -1,10 +1,14 @@
 {% extends "base.njk" %}
 
 {% block main %}
-    <h1> Facultad de Telematica </h1>
 
-	<div class="Mision">
-		<h3> Mision </h3>
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
+	<div  class="building">
+		<img src="/img/facultad_img.png">
+	</div>
+	
+	<div class="mision">
+		<h3> Misión </h3>
 		<p>	Formamos recursos humanos de Licenciatura y 
 			Posgrado eficientes y competitivos, socialmente
 			comprometidos, capaces de innovar y adaptarse 
@@ -14,9 +18,23 @@
 	</div>
 
 	<div class="OfertasEducativas">
-		<div class="Ingenieria_Software"> Ingenieria en Software </div>
-		<div class="Ingenieria_Telematica"> Ingenieria en Telematica </div>
-		<div class="Maestria"> Maestria </div>
-		<div class="Tramites"> Tramites </div>
+		<p> Oferta Educativa </p>
+		<div class="Ingenieria_Software"> 
+			<p> Ingenieria en Software </p>
+		</div>
+		<div class="Ingenieria_Telematica">
+			<p> Ingenieria en Telematica </p>
+		</div>
+		<div class="Maestria"> 
+			<p> Maestria </p>
+		</div>
+		<div class="Tramites">
+			<p> Tramites </p> 
+		</div>
 	</div>
+	
+	<div style=" width: 1150px; height: 575px; margin: auto; ">
+		<iframe src="https://www.youtube.com/embed/23d_z0WsC6c" frameborder="0"></iframe>
+	</div>
+
 {% endblock %}
