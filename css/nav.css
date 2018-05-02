@@ -4,11 +4,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Temp */
-main {
-    height: 50%;
-}
-
 .collapsible-header{
     display: block;
     font-weight: 500;
@@ -27,6 +22,28 @@ main {
 
 ul#links {
     margin-right: 24px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+footer .container {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p#footer-address {
+    font-weight: normal;
+}
+
+p#footer-address > span {
+    content: "\A";
+    white-space: pre;
 }
 
 @media only screen and (max-width: 992px) {
