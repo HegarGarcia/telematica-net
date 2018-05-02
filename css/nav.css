@@ -34,15 +34,32 @@ p#footer-address {
     font-weight: normal;
 }
 
-p#footer-address > span {
-    content: "\A";
+#footer-address > span {
+    display: block;
     white-space: pre;
 }
 
-@media only screen and (max-width: 992px) {
+div.social-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-icon > img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 7.5px 20px;
+}
+
+@media screen and (max-width: 992px) {
     nav .brand-logo {
         left: auto;
         transform: none;
         margin-left: 14px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .social-icon > img {
+        margin: 0px 10px;
     }
 }
