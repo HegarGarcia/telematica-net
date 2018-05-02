@@ -2,6 +2,7 @@
 
 {% block main %}
     <h1 class="center-align">Historia</h1>
+    <!--
     <div class="w3-content w3-display-container">
       <img class="mySlides" src="/img/historia/fac0.jpg" style="width:100%">
       <img class="mySlides" src="/img/historia/fac1.jpg" style="width:100%">
@@ -10,8 +11,14 @@
     
       <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
       <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>-->
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="/img/historia/fac0.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="/img/historia/fac1.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="/img/historia/fac2.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="/img/historia/fac3.jpg"></a>
     </div>
-    <div class="container" style="text-align:justify;">
+    <div style="text-align:justify; padding-top: 1em">
         <p>
         El inicio al impulso de las carreras de Informática-Computación en la Universidad de Colima, se dio en la facultad de Ingeniería Mecánica y Eléctrica, en el campus Coquimatlán con la carrera de Ingeniero en Sistemas Computacionales, y en las escuelas y facultades de Contabilidad y Administración del Estado, con la carrera de Licenciado en Informática.<br><br>
         Uno de los antecedentes de la actual Facultad de Telemática, que se encuentra ubicada en el campus Colima, fue la carrera de Licenciado en Informática que inició en Agosto de 1990 como respuesta a la necesidad detectada en el Estado de satisfacer la demanda de profesionistas que implementaran sistemas de información, utilizando nuevas tecnologías computacionales.<br><br>
@@ -24,23 +31,10 @@
         </p>
     </div>
     <!--JavaScript at end of body for optimized loading-->
-    <script>
-      var slideIndex = 1;
-      showDivs(slideIndex);
-      
-      function plusDivs(n) {
-        showDivs(slideIndex += n);
-      }
-      
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";  
-        }
-        x[slideIndex-1].style.display = "block";  
-      }
+    <script type="application/javaScript">
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {fullWidth: true});
+      });
     </script>
 {% endblock %}
