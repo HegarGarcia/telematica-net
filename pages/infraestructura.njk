@@ -1,0 +1,36 @@
+{% extends "base.njk" %}
+
+{% block main %}
+    <div class="container row">
+        <div class="carousel carousel-slider col xl6 l6 m4 s12">
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/aula_1.png"></a>
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/aula_2.png"></a>
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/aula_3.png"></a>
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/aula_4.png"></a>
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/aula_5.png"></a>
+        </div>
+
+        <div class="carousel carousel-slider col xl6 l6 m4 s12">
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/centro_computo_1.png"></a>
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/centro_computo_2.png"></a>
+        </div>
+
+        <div class="carousel carousel-slider col xl6 l6 m4 s12">
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/otras_1.png"></a>
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/otras_2.png"></a>
+        </div>
+
+        <div class="carousel carousel-slider col xl6 l6 m4 s12">
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/edificio_principal.png"></a>
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/edificio_posgrado.png"></a>
+            <a class="carousel-item" href="#one!"><img src="/img/infraestructura/edificio_ptc.png"></a>
+        </div>
+    </div>
+
+    <script type="application/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            let elems = document.querySelectorAll('.carousel');
+            let instances = M.Carousel.init(elems, {fullWidth: true});
+        });
+    </script>
+{% endblock %}
