@@ -24,13 +24,6 @@ ul#links {
     margin-right: 24px;
 }
 
-footer {
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-}
-
 footer .container {
     font-size: 12px;
     font-weight: 500;
