@@ -4,11 +4,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Temp */
-main {
-    height: 50%;
-}
-
 .collapsible-header{
     display: block;
     font-weight: 500;
@@ -29,10 +24,42 @@ ul#links {
     margin-right: 24px;
 }
 
-@media only screen and (max-width: 992px) {
+footer .container {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p#footer-address {
+    font-weight: normal;
+}
+
+#footer-address > span {
+    display: block;
+    white-space: pre;
+}
+
+div.social-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-icon > img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 7.5px 20px;
+}
+
+@media screen and (max-width: 992px) {
     nav .brand-logo {
         left: auto;
         transform: none;
         margin-left: 14px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .social-icon > img {
+        margin: 0px 10px;
     }
 }
