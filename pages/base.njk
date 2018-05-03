@@ -79,7 +79,7 @@
             </ul>
         </ul>
     </header>
-    <main class="container">
+    <main {% if not meta.container %} class="container" {% endif %}>
         {% block main %}
             
         {% endblock %}
