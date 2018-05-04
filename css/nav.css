@@ -50,6 +50,14 @@ div.social-icon {
     margin: 7.5px 20px;
 }
 
+ul.dropdown-content {
+    width: auto;
+}
+
+ul.dropdown-content:focus {
+    width: auto;
+}
+
 @media screen and (max-width: 992px) {
     nav .brand-logo {
         left: auto;
