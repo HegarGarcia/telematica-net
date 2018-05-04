@@ -7,7 +7,11 @@ const readFileOr404: any = (path: string) => readFile(path, {encoding: "utf8"}).
     console.log(err);
     return JSON.stringify({title: "Error"});
 });
+<<<<<<< HEAD
 const routes: Set<string> = new Set(["historia", "contacto", "calendario", "infraestructura"]);
+=======
+const routes: Set<string> = new Set(["historia", "contacto", "informes","maestria","reglamento"]);
+>>>>>>> todo lo de maestria
 
 export const getPageInfo: any = async (slug: string) => {
     slug = slug.toLowerCase();
