@@ -3,9 +3,9 @@ import util = require("util");
 
 const readFile = util.promisify(fs.readFile);
 const readDir = util.promisify(fs.readdir);
-const readFileOr404: any = (path: string) => readFile(path, {encoding: "utf8"}).catch((err) => {
+const readFileOr404: any = (path: string) => readFile(path, { encoding: "utf8" }).catch((err) => {
     console.log(err);
-    return JSON.stringify({title: "Error"});
+    return JSON.stringify({ title: "Error" });
 });
 const routes: Set<string> = new Set([
     "historia",
