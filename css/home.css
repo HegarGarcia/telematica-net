@@ -1,0 +1,39 @@
+img.banner { 
+  z-index: -2;
+  width: 100%;
+}
+
+h4.home-title {
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+}
+
+div#mision > p {
+	line-height: 1.5;
+	font-size: 13px;
+	text-align: justify;
+}
+
+.oferta-educativa {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1vw;
+	justify-items: center;
+	align-items: start;
+	text-align: center;
+}
+
+.image {
+	max-height: 80px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.image > img {
+	max-width: 100%;
+}
+
+.divider {
+	margin-bottom: 2vh;
+}

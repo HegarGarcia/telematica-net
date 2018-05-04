@@ -1,22 +1,65 @@
 {% extends "base.njk" %}
 
 {% block main %}
-    <h1> Facultad de Telematica </h1>
-
-	<div class="Mision">
-		<h3> Mision </h3>
-		<p>	Formamos recursos humanos de Licenciatura y 
-			Posgrado eficientes y competitivos, socialmente
-			comprometidos, capaces de innovar y adaptarse 
-			en el área de las Tecnologias de la Informacion 
-			y Comunicacion (TIC) en los entornos nacional e
-			internacional. </p>
+	<div>
+		<img class="banner" src="/img/facultad_img.png">
 	</div>
 
-	<div class="OfertasEducativas">
-		<div class="Ingenieria_Software"> Ingenieria en Software </div>
-		<div class="Ingenieria_Telematica"> Ingenieria en Telematica </div>
-		<div class="Maestria"> Maestria </div>
-		<div class="Tramites"> Tramites </div>
+	<div class="container">
+		<div class="row">
+			<div class="col xl4 l4 m4 s12" id="mision">
+				<h4 class="home-title">Misión</h4>
+				<p>Formamos recursos humanos de Licenciatura y 
+					Posgrado eficientes y competitivos, socialmente
+					comprometidos, capaces de innovar y adaptarse 
+					en el área de las Tecnologias de la Informacion 
+					y Comunicacion (TIC) en los entornos nacional e
+					internacional. </p>
+			</div>
+			<div class="col xl8 l8 m8 s12">
+				<h4 class="home-title">Oferta Educativa</h4>
+				<div class="oferta-educativa">
+					<div>
+						<div class="image">
+							<img src="/img/home/ing_software.jpg">
+						</div>
+						<div class="black-text">
+							<p>Ingenieria en Software</p>
+						</div>
+					</div>
+					<div>
+						<div class="image">
+							<img src="/img/home/ing_telematica.jpg">
+						</div>
+						<div class="black-text">
+							<p>Ingenieria en telemática</p>
+						</div>
+					</div>
+					<div>
+						<div class="image">
+							<img src="/img/home/maestria.jpg">
+						</div>
+						<div class="black-text">
+							<p>Maestrías</p>
+						</div>
+					</div>
+					<div>
+						<div class="image">
+							<img src="/img/home/tramites.jpg">
+						</div>
+						<div class="black-text">
+							<p>Trámites</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="divider"></div>
+
+		<div class="video-container">
+			<iframe src="https://www.youtube.com/embed/23d_z0WsC6c"></iframe>
+		</div>
 	</div>
+
 {% endblock %}
