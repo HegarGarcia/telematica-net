@@ -4,7 +4,6 @@
 	
 	width: 404px;
 	height: 57px;
-	position: absolute;
 
 	font-family: Roboto;
 	font-style: normal;
@@ -17,9 +16,8 @@
 }
 
 .Calendario_Img img {
-	position: absolute;
-	width: 1209px;
-	height: 604px;
+	width: 85%;
+	height: 85%;
 	left: 116px;
 	top: 210px;
 }
