@@ -1,0 +1,27 @@
+{% extends "base.njk" %}
+
+{% block main %}
+    <h1 class="center-align">Reglamento</h1>
+    <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="img/reglamento/reglamento1.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="img/reglamento/reglamento2.jpg"></a>
+    </div>
+
+    <script type="application/javaScript">
+      document.addEventListener('DOMContentLoaded', function() {
+        let elems = document.querySelectorAll('.carousel');
+        let instances = M.Carousel.init(elems, {
+          indicators: true,
+          fullWidth: true,
+          duration: 500
+        });
+
+        let instance = M.Carousel.getInstance(document.querySelector('.carousel'));
+
+        function autoplay(){
+          instance.next();
+        }
+        setInterval(autoplay, 4000);
+      });
+    </script>
+{% endblock %}
