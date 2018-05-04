@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}
+
+.subtitle{
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color:#eeeeee;
+}
+
+.boton:active {
+    top: 3px;
+  }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
