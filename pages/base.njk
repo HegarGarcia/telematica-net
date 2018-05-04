@@ -23,6 +23,10 @@
             <li><a class="black-text" href="/Calendario">Calendario</a></li>
         </ul>
 
+        <ul id='ddOf' class='dropdown-content'>
+            <li><a class="black-text" href="/Maestria">Maestría</a></li>
+        </ul>
+
         {# Navbar #}
         <nav>
             <div class="nav-wrapper blue-grey">
@@ -54,25 +58,32 @@
                 <li>
                     <div class="collapsible-header">Facultad</div>
                     <div class="collapsible-body">
-                    <ul class="collapsible">
-                        <li>
-                            <div class="collapsible-header" id="inicio"><a href="/Historia">Historia</a></div>
-                            <div class="collapsible-body"></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header" id="inicio"><a href="/Contacto">Contacto</a></div>
-                            <div class="collapsible-body"></div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header" id="inicio"><a href="/Calendario">Calendario</a></div>
-                            <div class="collapsible-body"></div>
-                        </li>
-                    </ul>
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header" id="inicio"><a href="/Historia">Historia</a></div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio"><a href="/Contacto">Contacto</a></div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio"><a href="/Calendario">Calendario</a></div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                        </ul>
                     </div>
                 </li>
                 <li>
                     <div class="collapsible-header">Oferta Educativa</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header" id="inicio"><a href="/Maestria">Maestra</a></div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
                     <div class="collapsible-header">Académico</div>
@@ -125,8 +136,9 @@
         let sidenavMenuElem = document.querySelector('.collapsible');
         M.Collapsible.init(sidenavMenuElem);
 
-        let ddFac = document.querySelector('#ddTFac');
-        M.Dropdown.init(ddFac);
+
+        let ddFac = document.querySelectorAll('.dropdown-trigger');
+        ddFac.forEach((elem) => M.Dropdown.init(ddFac));
     </script>
 </body>
 </html>
