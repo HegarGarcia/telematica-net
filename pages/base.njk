@@ -19,12 +19,36 @@
         <ul id='ddFac' class='dropdown-content'>
             <li><a class="black-text" href="/Historia">Historia</a></li>
             <li><a class="black-text" href="/Contacto">Contacto</a></li>
+            <li><a class="black-text" href="/persona_admin">Personal Administrativo</a></li>
+            <li><a class="black-text" href="/reglamento">Reglamento</a></li>
             <li><a class="black-text" href="/Infraestructura">Infraestructura</a></li>
+            <li><a class="black-text" href="/Informes">Informe de Labores</a></li>
             <li><a class="black-text" href="/Calendario">Calendario</a></li>
         </ul>
 
+        {# Dropdown Oferta Educativa #}
         <ul id='ddOf' class='dropdown-content'>
+            <li><a class="black-text" href="/Bienvenida">Bienvenida</a></li>
+            <li><a class="black-text" href="/Ing_telematica">Ingeniería en Telemática</a></li>
+            <li><a class="black-text" href="/Ing_software">Ingeniería en Software</a></li>
             <li><a class="black-text" href="/Maestria">Maestría</a></li>
+        </ul>
+
+        {# Dropdown Académico #}
+        <ul id='ddA' class='dropdown-content'>
+            <li><a class="black-text" href="/Docentes">Docentes</a></li>
+            <li><a class="black-text" href="/Academias">Academias</a></li>
+            <li><a class="black-text" href="/cuerpos">Cuerpos Académicos</a></li>
+            <li><a class="black-text" href="/Tutorias">Programa de Tutorías</a></li>
+        </ul>
+
+        {# Dropdown Estudiantes #}
+        <ul id='ddE' class='dropdown-content'>
+            <li><a class="black-text" href="/Horario">Horario</a></li>
+            <li><a class="black-text" href="/Actividades">Actividades</a></li>
+            <li><a class="black-text" href="/Guia">Guía para Estudiantes</a></li>
+            <li><a class="black-text" href="/Moodle">Moodle</a></li>
+            <li><a class="black-text" href="/Biblioteca">Biblioteca</a></li>
         </ul>
 
         {# Navbar #}
@@ -69,6 +93,10 @@
                             </li>
                             <li>
                                 <div class="collapsible-header" id="inicio"><a href="/Infraestructura">Infraestructura</a></div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio"><a href="/Informes">Informe de Labores</a></div>
                                 <div class="collapsible-body"></div>
                             </li>
                             <li>
@@ -139,7 +167,6 @@
 
         let sidenavMenuElem = document.querySelector('.collapsible');
         M.Collapsible.init(sidenavMenuElem);
-
 
         let ddFac = document.querySelectorAll('.dropdown-trigger');
         ddFac.forEach((elem) => M.Dropdown.init(ddFac));
