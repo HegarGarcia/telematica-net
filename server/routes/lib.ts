@@ -15,8 +15,11 @@ const routes: Set<string> = new Set([
     "maestria",
     "informes",
     "tramites",
+<<<<<<< HEAD
     "reglamento",
     "bienvenida",
+=======
+>>>>>>> d26b1621116bfb4d6022c2b668a33b4d02ec50c4
     "ing_software"
 ]);
 
