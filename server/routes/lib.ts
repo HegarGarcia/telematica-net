@@ -25,6 +25,7 @@ const routes: Set<string> = new Set([
     "personal_admin",
     "actividades",
     "academias",
+    "horario",
 ]);
 
 export const getPageInfo: any = async (slug: string) => {
