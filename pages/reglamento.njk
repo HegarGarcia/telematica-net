@@ -2,26 +2,16 @@
 
 {% block main %}
     <h1 class="center-align">Reglamento</h1>
-    <div class="carousel carousel-slider">
-        <a class="carousel-item" href="#one!"><img src="img/reglamento/reglamento1.jpg"></a>
-        <a class="carousel-item" href="#two!"><img src="img/reglamento/reglamento2.jpg"></a>
+
+    <div class="reglamentos">
+        <img class="materialboxed" src="img/reglamento/reglamento1.jpg">
+        <img class="materialboxed" src="img/reglamento/reglamento2.jpg">
     </div>
 
     <script type="application/javaScript">
       document.addEventListener('DOMContentLoaded', function() {
-        let elems = document.querySelectorAll('.carousel');
-        let instances = M.Carousel.init(elems, {
-          indicators: true,
-          fullWidth: true,
-          duration: 500
-        });
-
-        let instance = M.Carousel.getInstance(document.querySelector('.carousel'));
-
-        function autoplay(){
-          instance.next();
-        }
-        setInterval(autoplay, 4000);
+        const elems = document.querySelectorAll('.materialboxed');
+        const instances = M.Materialbox.init(elems);
       });
     </script>
 {% endblock %}
