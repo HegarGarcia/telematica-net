@@ -17,6 +17,7 @@ const routes: Set<string> = new Set([
     "tramites",
     "reglamento",
     "bienvenida",
+    "ing_software"
 ]);
 
 export const getPageInfo: any = async (slug: string) => {
