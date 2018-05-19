@@ -11,7 +11,7 @@
 *   ~~Trámites~~
 *   Academias - Ulises
 *   Cuerpo Académico - Hegar
-*   Programa de Tutorías - Hegar
+*   ~~Programa de Tutorías - Hegar~~
 *   Horario - Garabita
 *   Actividades - Garabita
 *   Personal - Ulises
