@@ -1,0 +1,10 @@
+div.main {
+    text-align:justify; 
+}
+
+div.main > p {
+    font-size: 1.1rem;
+    line-height: normal;
+    content: "\a ";
+    white-space: pre-line;
+}
