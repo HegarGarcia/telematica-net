@@ -1,0 +1,19 @@
+.docentes__table {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    grid-gap: 1em;
+}
+
+th {
+    font-weight: 500;
+}
+
+td > span {
+    font-style: italic;
+    line-height: normal;
+}
+
+td > span::before {
+    content: "\A";
+    white-space: pre;
+}

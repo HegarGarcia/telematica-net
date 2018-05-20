@@ -18,4 +18,4 @@
 *   ~~Bienvenida~~
 *   Ing. en Telemática - Oliver
 *   Ing. en Software - Oliver
-*   Docentes - Hegar
+*   ~~Docentes - Hegar~~

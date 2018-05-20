@@ -1,0 +1,272 @@
+{
+    "title": "Docentes - Facultad de Telemática",
+    "css": "docentes",
+    "ptc": [
+        {
+            "name": "PhD. Acosta Díaz Ricardo",
+            "email": "acosta@ucol.mx"
+        },
+        {
+            "name": "D. en C. Buenrostro Mariscal Raymundo",
+            "email": "raymundo@ucol.mx"
+        },
+        {
+            "name": "M. en C. Gallardo Armando Román",
+            "email": "aroman@ucol.mx"
+        },
+        {
+            "name": "D. en C. Ramos Michel Erika Margarita",
+            "email": "ramem@ucol.mx"
+        },
+        {
+            "name": "M. en C. Álvarez Cárdenas Omar",
+            "email": "xe1aom@ucol.mx"
+        },
+        {
+            "name": "D. en C. Cabello Espinosa María Eugenia",
+            "email": "ecabello@ucol.mx"
+        },
+        {
+            "name": "M. en C. Estrada González Fermín",
+            "email": "fermin_estrada@ucol.mx"
+        },
+        {
+            "name": "D. en C. Guerrero Ibáñez Juan Antonio",
+            "email": "antonio_guerrero@ucol.mx"
+        },
+        {
+            "name": "M. en C. Mayoral Baldivia Margarita",
+            "email": "mglenda@ucol.mx"
+        },
+        {
+            "name": "M. en C. Sandoval Carrillo Sara",
+            "email": "sary@ucol.mx"
+        },
+        {
+            "name": "D. en C. Andrade Aréchiga María",
+            "email": "mandrad@ucol.mx"
+        },
+        {
+            "name": "D. en C. Contreras Castillo Juan José",
+            "email": "juancont@ucol.mx"
+        },
+        {
+            "name": "D. en C. Fajardo Flores Silvia Berenice",
+            "email": "medusa@ucol.mx"
+        },
+        {
+            "name": "D. en C. Gutiérrez Pulido Jorge Rafael",
+            "email": "jrgp@ucol.mx"
+        },
+        {
+            "name": "D. en C. Montesinos López Osval Antonio",
+            "email": "oamontes1@ucol.mx"
+        },
+        {
+            "name": "M. en C. Santana Mancilla Pedro César",
+            "email": "psantana@ucol.mx"
+        },
+        {
+            "name": "D. en C. Aquino Santos Raúl Teodoro",
+            "email": "aquinor@ucol.mx"
+        },
+        {
+            "name": "D. en C. Damian Reyes Pedro",
+            "email": "damian@ucol.mx"
+        },
+        {
+            "name": "D. en C. Flores Cortés Carlos Alberto",
+            "email": "cfcortes@ucol.mx"
+        },
+        {
+            "name": "D. en C. Herrera Morales José Roman",
+            "email": "rherrera@ucol.mx"
+        },
+        {
+            "name": "D. en C. Ramírez Alcaraz Juan Manuel",
+            "email": "jmramir@ucol.mx"
+        }
+    ],
+    "pph": [
+        {
+            "name": "M. en A. Camorlinga Camacho Sofía Magally",
+            "email": "soficc27@gmail.com"
+        },
+        {
+            "name": "Licda. Mercado Maciel Alejandra Margarita",
+            "email": "mercado.alejandra@gmail.com"
+        },
+        {
+            "name": "Cobián Alvarado Mónica",
+            "email": "mcobian@ucol.mx"
+        },
+        {
+            "name": "MTI. Gomez Galvan Mayela Haidee",
+            "email": "mayela_gomez@ucol.mx"
+        },
+        {
+            "name": "Licda. Araiza Cañedo Maribel",
+            "email": "maribel_araiza@ucol.mx"
+        },
+        {
+            "name": "M. en C. Alcaraz Amador Martha Cristina",
+            "email": "malcaraz@ucol.mx"
+        },
+        {
+            "name": "MTI. Guzman Benavides Krishna Neith",
+            "email": "krishna@ucol.mx"
+        },
+        {
+            "name": "Amezcua Luján Martha Karina",
+            "email": "kariamezcua@hotmail.com"
+        },
+        {
+            "name": "Licda. Avalos Diaz Julia Karina",
+            "email": "julliekarina@gmail.com"
+        },
+        {
+            "name": "M. en A. Carrillo Hidalgo Joaquín",
+            "email": "joaquinka@ucol.mx"
+        },
+        {
+            "name": "M. en C. Moctezuma Hernández José",
+            "email": "jmocte@ucol.mx"
+        },
+        {
+            "name": "D. en C. Amezcua Valdovinos Ismael",
+            "email": "ismaelamezcua@ucol.mx"
+        },
+        {
+            "name": "Cortes Lugo Hugo",
+            "email": "hugolugo@ucol.mx"
+        },
+        {
+            "name": "M. en C.Cárdenas Villa Gerardo Emmanuel",
+            "email": "gvilla@ucol.mx"
+        },
+        {
+            "name": "M. en C. Bricio Chapula Enrique",
+            "email": "enrique_bricio@ucol.mx"
+        },
+        {
+            "name": "M. en C. Flores Flores Eduardo",
+            "email": "eflores@ucol.mx"
+        },
+        {
+            "name": "Ing. Bricio Chapula Carlos Adrian",
+            "email": "cbricio@ucol.mx"
+        },
+        {
+            "name": "M. en C. Gaspar Cruz Carlos Fidel",
+            "email": "carlos.gaspar@ucol.mx"
+        },
+        {
+            "name": "Licda. Andrade Castillo Martha Elba",
+            "email": "came_16@hotmail.com"
+        },
+        {
+            "name": "M. en C. Aguilar Arias Angélica María",
+            "email": "angye@ucol.mx"
+        },
+        {
+            "name": "Bañuelos López Luis Antonio",
+            "email": ""
+        },
+        {
+            "name": "Campos González Edgar Guadalupe",
+            "email": ""
+        },
+        {
+            "name": "Peralta Araiza Ana Conceza",
+            "email": ""
+        },
+        {
+            "name": "Ramírez Sánchez Claudia",
+            "email": ""
+        },
+        {
+            "name": "Torres López Héctor",
+            "email": ""
+        },
+        {
+            "name": "Villaseñor Hernández Manuel Pastor",
+            "email": ""
+        },
+        {
+            "name": "Lepe Salazar Francisco Iván",
+            "email": ""
+        },
+        {
+            "name": "Pozas Zepeda Darío",
+            "email": ""
+        },
+        {
+            "name": "Ramos Madrigal Abel",
+            "email": ""
+        },
+        {
+            "name": "Ulibarri Ireta Carlos",
+            "email": ""
+        },
+        {
+            "name": "Ávalos Corona Luis Miguel",
+            "email": ""
+        },
+        {
+            "name": "Escalera Pérez Hernán Adalid",
+            "email": ""
+        },
+        {
+            "name": "MTI. González Arellano María Estela",
+            "email": ""
+        },
+        {
+            "name": "Ing. Manzanilla Aznarez Jorge Gerardo",
+            "email": ""
+        },
+        {
+            "name": "Moreno Osegueda Raymundo",
+            "email": ""
+        },
+        {
+            "name": "Ramírez González Humberto",
+            "email": ""
+        },
+        {
+            "name": "Rangel Alcántar Érick",
+            "email": ""
+        },
+        {
+            "name": "Valadez Meneses Rafael",
+            "email": ""
+        },
+        {
+            "name": "Castillo Vega Jesús Eduardo",
+            "email": ""
+        },
+        {
+            "name": "Govea Valencia Georgina",
+            "email": ""
+        },
+        {
+            "name": "Medina Sandoval Víctor Hugo",
+            "email": ""
+        },
+        {
+            "name": "Nava Bautista Martha Xóchitl",
+            "email": ""
+        },
+        {
+            "name": "Ramírez Morfín José Nabor",
+            "email": ""
+        },
+        {
+            "name": "Rodríguez Ortiz Miguel Ángel",
+            "email": ""
+        },
+        {
+            "name": "Vázquez Godina Lorenzo Aarón",
+            "email": ""
+        }
+    ]
+}
