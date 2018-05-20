@@ -1,0 +1,132 @@
+{
+    "title": "Cuerpos Académicos - Facultad de Telematica",
+    "css": "cuerpos",
+    "ca54": [
+        {
+            "field": "Nombre del cuerpo",
+            "value": "Redes y Telecomunicaciones"
+        },
+        {
+            "field": "Grado de consolidación",
+            "value": "En consolidación"
+        },
+        {
+            "field": "IES",
+            "value": "Universidad de Colima"
+        },
+        {
+            "field": "Año de registro",
+            "value": "2002"
+        },
+        {
+            "field": "DES de adscripción",
+            "value": "Telemática, Servicios y Tecnologías de Información"
+        },
+        {
+            "field": "Líneas de generación y/o aplicación del conocimiento que cultiva el cuerpo académico",
+            "value": "",
+            "fullWidth": true
+        },
+        {
+            "field": "Redes de computadoras",
+            "value": "Análisis y desarrollo de sistemas de comunicación de datos, estructuras físicas y funcionamiento lógico de los mismos, sus principales áreas de interés son las redes de sensores y las redes vehiculares, así como las interfaces de interacción humano-computadora."
+        },
+        {
+            "field": "Miembros",
+            "value": "Flores Cortes Carlos Alberto, Buenrostro Mariscal Raymundo, Guerrero Ibáñez Juan Antonio, Ramírez Alcaraz Juan Manuel, Santana Mancilla Pedro César, Fermín Estrada González, Juan José Contreras Castillo"
+        }
+    ],
+    "ca55": [
+        {
+            "field": "Año de registro",
+            "value": "2002"
+        },
+        {
+            "field": "DES de adscripción",
+            "value": "Telemática, Servicios y Tecnologías de Información"
+        },
+        {
+            "field": "Líneas de generación y/o aplicación del conocimiento que cultiva el cuerpo académico",
+            "value": "",
+            "fullWidth": true
+        },
+        {
+            "field": "Sistemas de Información y modelado de software",
+            "value": "Desarrollo de sistemas de apoyo a las tecnologías de información, así como modelado para el ánalisis, diseño e implementación de software"
+        },
+        {
+            "field": "Miembros",
+            "value": "Cabello Espinosa María Eugenia, Gallardo Armando Román, Macías Elizarrarás Salvador, Sandoval Carrillo Sara, Herrera Morales José Román"
+        }
+    ],
+    "ca65": [
+        {
+            "field": "Nombre del cuerpo",
+            "value": "Cómputo móvil"
+        },
+        {
+            "field": "Grado de consolidación",
+            "value": "En formación"
+        },
+        {
+            "field": "IES",
+            "value": "Universidad de Colima"
+        },
+        {
+            "field": "Año de registro",
+            "value": "2007"
+        },
+        {
+            "field": "DES de adscripción",
+            "value": "Telemática, Servicios y Tecnologías de Información"
+        },
+        {
+            "field": "Líneas de generación y/o aplicación del conocimiento que cultiva el cuerpo académico",
+            "value": "",
+            "fullWidth": true
+        },
+        {
+            "field": "Aplicaciones de cómputo móvil",
+            "value": "Desarrollo de prototipos, software y algoritmos de simulación que funcionen en dispositivos móviles como laptops, asistentes digitales personales y dispositivos celulares."
+        },
+        {
+            "field": "Miembros",
+            "value": "Aquino Santos Raúl Teodoro, Mayoral Baldivia Margarita Glenda, Álvarez Cárdenas Omar"
+        }
+    ],
+    "ca90": [
+        {
+            "field": "Nombre del cuerpo",
+            "value": "Inteligencia Computacional Aplicada"
+        },
+        {
+            "field": "Grado de consolidación",
+            "value": "En consolidación"
+        },
+        {
+            "field": "IES",
+            "value": "Universidad de Colima"
+        },
+        {
+            "field": "Año de registro",
+            "value": "2013"
+        },
+        {
+            "field": "DES de adscripción",
+            "value": "Telemática, Servicios y Tecnologías de Información"
+        },
+        {
+            "field": "Líneas de generación y/o aplicación del conocimiento que cultiva el cuerpo académico",
+            "value": "",
+            "fullWidth": true
+        },
+        {
+            "field": "Ambientes inteligentes",
+            "value": "Análisis, diseño, desarrollo y/o implementación de aplicaciones en tecnología educativa, cómputo ubicuo, web semántica, e-participación, procesamiento de imágenes y aprendizaje computacional"
+        },
+        {
+            "field": "Miembros",
+            "value": "Acosta Díaz Ricardo, Andrade Aréchiga María, Damián Reyes Pedro, Fajardo Flores Silvia Berenice, Gutiérrez Pulido Jorge Rafael, Ramos Michel Erika Margarita"
+        }
+    ]
+}

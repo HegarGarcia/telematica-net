@@ -10,7 +10,7 @@
 *   ~~Maestría~~
 *   ~~Trámites~~
 *   Academias - Ulises
-*   Cuerpo Académico - Hegar
+*   ~~Cuerpo Académico - Hegar~~
 *   ~~Programa de Tutorías - Hegar~~
 *   Horario - Garabita
 *   Actividades - Garabita

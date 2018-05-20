@@ -19,6 +19,7 @@ const routes: Set<string> = new Set([
     "bienvenida",
     "tutorias",
     "docentes",
+    "cuerpos",
 ]);
 
 export const getPageInfo: any = async (slug: string) => {
