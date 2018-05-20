@@ -1,0 +1,85 @@
+{% extends "base.njk" %}
+
+{% block main %}
+    <h4>Cuerpos Académicos</h4>
+    <p class="cuerpo__info">
+    Los profesores de tiempo completo de la facultad están agrupados en 4 cuerpos académicos (CA) reconocidos por PROMEP: CA-54, CA-55, CA-65 y CA-90. A continuación se describen los datos principales de cada uno.
+    </p>
+    <ul class="collapsible">
+        <li>
+            <div class="collapsible-header">CA-54</div>
+            <div class="collapsible-body">
+                <table>
+                    {% for field in meta.ca54%}
+                    <tr>
+                        {% if field.fullWidth %}
+                            <td colspan=2>{{field.field}}</td>
+                        {% else %}
+                            <th>{{field.field}}</th>
+                            <td>{{field.value}}</td>
+                        {% endif %}
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header">CA-55</div>
+            <div class="collapsible-body">
+                <table>
+                    {% for field in meta.ca55%}
+                    <tr>
+                        {% if field.fullWidth %}
+                            <td colspan=2>{{field.field}}</td>
+                        {% else %}
+                            <th>{{field.field}}</th>
+                            <td>{{field.value}}</td>
+                        {% endif %}
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header">CA-65</div>
+            <div class="collapsible-body">
+                <table>
+                    {% for field in meta.ca65%}
+                    <tr>
+                        {% if field.fullWidth %}
+                            <td colspan=2>{{field.field}}</td>
+                        {% else %}
+                            <th>{{field.field}}</th>
+                            <td>{{field.value}}</td>
+                        {% endif %}
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header">CA-90</div>
+            <div class="collapsible-body">
+            <table>
+                {% for field in meta.ca90%}
+                <tr>
+                    {% if field.fullWidth %}
+                        <td colspan=2>{{field.field}}</td>
+                    {% else %}
+                        <th>{{field.field}}</th>
+                        <td>{{field.value}}</td>
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            </table>
+            </div>
+        </li>
+    </ul>
+
+    <script type="application/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            const elems = document.querySelectorAll('.collapsible');
+            const instances = M.Collapsible.init(elems);
+        });
+    </script>
+{% endblock %}
