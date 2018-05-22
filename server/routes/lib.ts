@@ -23,6 +23,7 @@ const routes: Set<string> = new Set([
     "ing_software",
     "ing_telematica",
     "personal_admin",
+    "actividades",
 ]);
 
 export const getPageInfo: any = async (slug: string) => {
