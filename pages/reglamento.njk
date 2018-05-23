@@ -10,24 +10,8 @@
 
     <script type="application/javaScript">
       document.addEventListener('DOMContentLoaded', function() {
-<<<<<<< HEAD
         const elems = document.querySelectorAll('.materialboxed');
         const instances = M.Materialbox.init(elems);
-=======
-        let elems = document.querySelectorAll('.carousel');
-        let instances = M.Carousel.init(elems, {
-          indicators: true,
-          fullWidth: true,
-          duration: 500
-        });
-
-        let instance = M.Carousel.getInstance(document.querySelector('.carousel'));
-
-        function autoplay(){
-          instance.next();
-        }
-        setInterval(autoplay, 4000);
->>>>>>> 5744627ba0955a3a767ff77393e7004d0641c0a9
       });
     </script>
 {% endblock %}
