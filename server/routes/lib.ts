@@ -21,6 +21,7 @@ const routes: Set<string> = new Set([
     "docentes",
     "cuerpos",
     "ing_software",
+    "ing_telematica",
     "personal_admin",
 ]);
 
