@@ -11,6 +11,7 @@ router.use("/material.css", cssStatic);
 router.use("/material.js", jsStatic);
 router.use("/css", express.static(`${__dirname}/../../css`));
 router.use("/img", express.static(`${__dirname}/../../img`));
+router.use("/resources", express.static(`${__dirname}/../../resources`));
 
 router.get("/", async (req: express.Request, res: express.Response) => {
     const [ template, meta ]: [any, any] = await getPageInfo("home");
