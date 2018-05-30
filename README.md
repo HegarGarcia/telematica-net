@@ -19,3 +19,5 @@
 *   ~~Ing. en Telemática - Oliver~~
 *   ~~Ing. en Software - Oliver~~
 *   ~~Docentes - Hegar~~
+
+All style fixed
