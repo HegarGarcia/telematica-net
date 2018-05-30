@@ -1,0 +1,8 @@
+table > thead th {
+    font-weight: 500;
+}
+
+table > tbody {
+    text-align: center;
+    line-height: 1.5;
+}
