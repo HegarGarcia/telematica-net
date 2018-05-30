@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,60 +9,111 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/material.css">
     <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    {% if meta.css %}
-        <link rel="stylesheet" href="/css/{{meta.css}}.css">
-    {% endif %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> {% if meta.css %}
+    <link rel="stylesheet" href="/css/{{meta.css}}.css"> {% endif %}
 </head>
+
 <body>
     <header>
         {# Dropdown Facultad #}
         <ul id='ddFac' class='dropdown-content'>
-            <li><a class="black-text" href="/Historia">Historia</a></li>
-            <li><a class="black-text" href="/Contacto">Contacto</a></li>
-            <li><a class="black-text" href="/personal_admin">Personal Administrativo</a></li>
-            <li><a class="black-text" href="/reglamento">Reglamento</a></li>
-            <li><a class="black-text" href="/Infraestructura">Infraestructura</a></li>
-            <li><a class="black-text" href="/Informes">Informe de Labores</a></li>
-            <li><a class="black-text" href="/Calendario">Calendario</a></li>
+            <li>
+                <a class="black-text" href="/Historia">Historia</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Contacto">Contacto</a>
+            </li>
+            <li>
+                <a class="black-text" href="/personal_admin">Personal Administrativo</a>
+            </li>
+            <li>
+                <a class="black-text" href="/reglamento">Reglamento</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Infraestructura">Infraestructura</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Informes">Informe de Labores</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Calendario">Calendario</a>
+            </li>
         </ul>
 
         {# Dropdown Oferta Educativa #}
         <ul id='ddOf' class='dropdown-content'>
-            <li><a class="black-text" href="/Bienvenida">Bienvenida</a></li>
-            <li><a class="black-text" href="/Ing_telematica">Ingeniería en Telemática</a></li>
-            <li><a class="black-text" href="/Ing_software">Ingeniería en Software</a></li>
-            <li><a class="black-text" href="/Maestria">Maestría</a></li>
-            <li><a class="black-text" href="/Tramites">Tramites</a></li>
+            <li>
+                <a class="black-text" href="/Bienvenida">Bienvenida</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Ing_telematica">Ingeniería en Telemática</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Ing_software">Ingeniería en Software</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Maestria">Maestría</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Tramites">Tramites</a>
+            </li>
         </ul>
 
         {# Dropdown Académico #}
         <ul id='ddA' class='dropdown-content'>
-            <li><a class="black-text" href="/Docentes">Docentes</a></li>
-            <li><a class="black-text" href="/Academias">Academias</a></li>
-            <li><a class="black-text" href="/cuerpos">Cuerpos Académicos</a></li>
-            <li><a class="black-text" href="/Tutorias">Programa de Tutorías</a></li>
+            <li>
+                <a class="black-text" href="/Docentes">Docentes</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Academias">Academias</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Cuerpos">Cuerpos Académicos</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Tutorias">Programa de Tutorías</a>
+            </li>
         </ul>
 
         {# Dropdown Estudiantes #}
         <ul id='ddE' class='dropdown-content'>
-            <li><a class="black-text" href="/Horario">Horario</a></li>
-            <li><a class="black-text" href="/Actividades">Actividades</a></li>
-            <li><a class="black-text" href="/Guia">Guía para Estudiantes</a></li>
-            <li><a class="black-text" href="/Moodle">Moodle</a></li>
-            <li><a class="black-text" href="/Biblioteca">Biblioteca</a></li>
+            <li>
+                <a class="black-text" href="/Horario">Horario</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Actividades">Actividades</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Guia">Guía para Estudiantes</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Moodle">Moodle</a>
+            </li>
+            <li>
+                <a class="black-text" href="/Biblioteca">Biblioteca</a>
+            </li>
         </ul>
 
         {# Navbar #}
         <nav>
             <div class="nav-wrapper blue-grey">
-                <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
                 <a href="/" class="brand-logo">Facultad de Telemática</a>
                 <ul class="right hide-on-med-and-down" id="#links">
-                    <li><a id="ddTFac" class='dropdown-trigger' href='#' data-target='ddFac'>Facultad</a></li>
-                    <li><a id="ddTOF" class='dropdown-trigger' href='#' data-target='ddOf'>Oferta Educativa</a></li>
-                    <li><a id="ddTA" class='dropdown-trigger' href='#' data-target='ddA'>Académico</a></li>
-                    <li><a id="ddTE" class='dropdown-trigger' href='#' data-target='ddE'>Estudiantes</a></li>
+                    <li>
+                        <a id="ddTFac" class='dropdown-trigger' href='#' data-target='ddFac'>Facultad</a>
+                    </li>
+                    <li>
+                        <a id="ddTOF" class='dropdown-trigger' href='#' data-target='ddOf'>Oferta Educativa</a>
+                    </li>
+                    <li>
+                        <a id="ddTA" class='dropdown-trigger' href='#' data-target='ddA'>Académico</a>
+                    </li>
+                    <li>
+                        <a id="ddTE" class='dropdown-trigger' href='#' data-target='ddE'>Estudiantes</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -74,66 +126,185 @@
                         <img src="img/ucol.png" style="max-width: 100%; vertical-align: middle;">
                     </div>
                 </div>
-            </li>            
+            </li>
             <ul class="collapsible">
+                {# Inicio #}
                 <li>
-                    <div class="collapsible-header" id="inicio"><a href="/">Inicio</a></div>
+                    <div class="collapsible-header" id="inicio">
+                        <a href="/">Inicio</a>
+                    </div>
                     <div class="collapsible-body"></div>
                 </li>
+
+                {# Facultad #}
                 <li>
                     <div class="collapsible-header">Facultad</div>
                     <div class="collapsible-body">
                         <ul class="collapsible">
                             <li>
-                                <div class="collapsible-header" id="inicio"><a href="/Historia">Historia</a></div>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Historia">Historia</a>
+                                </div>
                                 <div class="collapsible-body"></div>
                             </li>
                             <li>
-                                <div class="collapsible-header" id="inicio"><a href="/Contacto">Contacto</a></div>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Contacto">Contacto</a>
+                                </div>
                                 <div class="collapsible-body"></div>
                             </li>
                             <li>
-                                <div class="collapsible-header" id="inicio"><a href="/Infraestructura">Infraestructura</a></div>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/personal_admin">Personal Administrativo</a>
+                                </div>
                                 <div class="collapsible-body"></div>
                             </li>
                             <li>
-                                <div class="collapsible-header" id="inicio"><a href="/Informes">Informe de Labores</a></div>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/reglamento">Reglamento</a>
+                                </div>
                                 <div class="collapsible-body"></div>
                             </li>
                             <li>
-                                <div class="collapsible-header" id="inicio"><a href="/Calendario">Calendario</a></div>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Infraestructura">Infraestructura</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Informes">Informe de Labores</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Calendario">Calendario</a>
+                                </div>
                                 <div class="collapsible-body"></div>
                             </li>
                         </ul>
                     </div>
                 </li>
+
+                {# Oferta Educativa #}
                 <li>
                     <div class="collapsible-header">Oferta Educativa</div>
                     <div class="collapsible-body">
                         <ul class="collapsible">
                             <li>
-                                <div class="collapsible-header" id="inicio"><a href="/Maestria">Maestra</a></div>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Bienvenida">Bienvenida</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Ing_telematica">Ingeniería en Telemática</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Ing_software">Ingeniería en Software</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Maestria">Maestría</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Tramites">Trámites</a>
+                                </div>
                                 <div class="collapsible-body"></div>
                             </li>
                         </ul>
                     </div>
                 </li>
+
+                {# Académico #}
                 <li>
                     <div class="collapsible-header">Académico</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Docentes">Docentes</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Academias">Academias</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Cuerpos">Cuerpos Académicos</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Tutorias">Programa de Tutorías</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
+
+                {# Estudiantes #}
                 <li>
                     <div class="collapsible-header">Estudiantes</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Horario">Horario</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Actividades">Actividades</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Guia">Guía para Estudiantes</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Moodle">Moodle</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header" id="inicio">
+                                    <a href="/Biblioteca">Biblioteca</a>
+                                </div>
+                                <div class="collapsible-body"></div>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </ul>
     </header>
+
     <main {% if not meta.container %} class="container" {% endif %}>
-        {% block main %}
-            
-        {% endblock %}
+        {% block main %} {% endblock %}
     </main>
+
     <footer class="page-footer white">
         <div class="container center black-text">
             <div class="row">
@@ -173,4 +344,5 @@
         ddFac.forEach((elem) => M.Dropdown.init(ddFac));
     </script>
 </body>
+
 </html>
