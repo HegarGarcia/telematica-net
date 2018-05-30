@@ -12,7 +12,7 @@
 *   Academias - Ulises
 *   ~~Cuerpo Académico - Hegar~~
 *   ~~Programa de Tutorías - Hegar~~
-*   Horario - Garabita
+*   ~~Horario - Garabita~~
 *   ~~Actividades - Garabita~~
 *   ~~Personal - Ulises~~
 *   ~~Bienvenida~~
